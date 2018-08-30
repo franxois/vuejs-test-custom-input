@@ -9,7 +9,7 @@ import { Component, Prop, Vue, Model, Emit } from "vue-property-decorator";
 import { EventEmitter } from "events";
 
 @Component
-export default class HelloWorld extends Vue {
+export default class MyTextarea extends Vue {
   updateContent(event: any) {
     this.$emit("myDataChanged", event.target.value);
   }

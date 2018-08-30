@@ -7,7 +7,7 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
-import mytextarea from "./MyTextarea";
+import mytextarea from "./MyTextarea.vue";
 
 @Component({
   components: {
